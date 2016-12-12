@@ -1,25 +1,25 @@
 # GettingAndCleaningDataAssignement
 
 ##Description of the steps to get tidy data
-1)The X_train, Y_train, subject_train, X_test, Y_test, subject_test, features and actity_labels txt files give us the necessary raw data.
-2)The train and test data sets are binded by rows
-3)The feature names are used as row names for our new data set
-4)The newly obtained dataset which consists of the binding of train and test ativity data has its column rename "activityId"
-5)The newly obtained dataset which consists of the binding of subjects train and test data has its column rename "subject"
-6)The dataframe containing the activities data frame has its columns renamed "activityId" and "activityName"
-7)Only the columns whose names contain the word "mean" or "std are kept in the measurement data frame
-8)The subject and ativity dataframes are bound columnwise to the activity dataframe
-9)The activities are given understandable names by merging the newly obtained dataframe with the activity labels data frame
-10)The means asked in the assignement are calculated. There is one row per activityName/subject combination and they are ordered by subject first and activityName second.
+1)The X_train, Y_train, subject_train, X_test, Y_test, subject_test, features and actity_labels txt files give us the necessary raw data.  
+2)The train and test data sets are binded by rows  
+3)The feature names are used as row names for our new data set  
+4)The newly obtained dataset which consists of the binding of train and test ativity data has its column rename "activityId"  
+5)The newly obtained dataset which consists of the binding of subjects train and test data has its column rename "subject"  
+6)The dataframe containing the activities data frame has its columns renamed "activityId" and "activityName"  
+7)Only the columns whose names contain the word "mean" or "std are kept in the measurement data frame  
+8)The subject and ativity dataframes are bound columnwise to the activity dataframe  
+9)The activities are given understandable names by merging the newly obtained dataframe with the activity labels data frame  
+10)The means asked in the assignement are calculated. There is one row per activityName/subject combination and they are ordered by subject first and activityName second.  
 
 ##Data
-Source of the data:
+Source of the data:  
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-##Measurements obtained:
-There is one row fr the mean of each activityName/subject combination for each variable and they are ordered by subject first and activityName second.
+##Measurements obtained:  
+There is one row fr the mean of each activityName/subject combination for each variable and they are ordered by subject first and activityName second.  
 
-##Variable names:       
+##Variable names:         
 "tBodyAcc-mean()-X"               "tBodyAcc-mean()-Y"               "tBodyAcc-mean()-Z"              
 "tBodyAcc-std()-X"                "tBodyAcc-std()-Y"                "tBodyAcc-std()-Z"               
 "tGravityAcc-mean()-X"            "tGravityAcc-mean()-Y"            "tGravityAcc-mean()-Z"           
